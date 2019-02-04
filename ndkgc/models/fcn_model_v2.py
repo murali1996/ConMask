@@ -846,7 +846,7 @@ def main(_):
                                                    os.path.join(dataset_dir, 'avoid_entities.txt'))
 
             eval_targets = list(eval_targets_set)
-
+            dic = eval_targets
             if len(eval_targets_set) == 0:
                 tf.logging.warning("eval_targets_set is empty!")
 
